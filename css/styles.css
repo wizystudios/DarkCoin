@@ -1,0 +1,20 @@
+/* Glowing effect on hover */
+.glow:hover {
+    box-shadow: 0 0 20px rgba(59, 130, 246, 0.7);
+  }
+  
+  /* Gradient text */
+  .gradient-text {
+    background: linear-gradient(45deg, #6ee7b7, #3b82f6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  /* Floating animation */
+  @keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+  }
+  .floating {
+    animation: float 3s ease-in-out infinite;
+  }
